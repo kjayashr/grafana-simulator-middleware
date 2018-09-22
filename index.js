@@ -7,6 +7,7 @@ var PubNub = require('pubnub');
 
 var created_time = Date.now();
 var testmessage = "Who voted him"
+/*PubNub invocation*/
 var pubnub = new PubNub({
 
     subscribe_key: 'sub-c-78806dd4-42a6-11e4-aed8-02ee2ddab7fe'
